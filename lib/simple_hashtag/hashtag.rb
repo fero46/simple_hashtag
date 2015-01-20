@@ -4,7 +4,6 @@ module SimpleHashtag
 
     has_many :hashtaggings
 
-    validates :name, uniqueness: true
 
     # TODO Beef up the regex (ie.:what if content is HTML)
     # this is how Twitter does it:
